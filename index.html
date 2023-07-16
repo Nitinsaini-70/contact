@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <div id="home">
+        <div class="container">
+            <div class="sidebar">
+                <h2 class="portfolio">PORT<span>FOLIO</span></h2>
+                <nav>
+                    <ul id="sidemenu">
+                        <div class="navigation">
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+                            <li><a href="#skills">SKILLS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </div>
+                            <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                        <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+
+            <div class="info">
+                <h1>Hello,</h1>
+                <h1>My name is <span style="color: aqua;">Nitin Saini</span></h1>
+                 <h1>I'm a <span class="typing"></span></h1>
+            </div>
+            
+                
+                <div class="detail">
+                    <input class="more" type="button" value="Download Resume" >
+                </div>
+        </div>
+       
+    </div>
+
+    <div id="about">
+        <div class="about">
+            <hr style="color: aqua;">
+            <center class="about_heading"><h2>About <span>Me</span></h2></center>
+            <div class="row">
+
+                <div class="about_col1">
+                    <img src="IMG_20220708_211223 - Copy.jpg">
+                </div>
+
+                <div class="about_col2">
+                    <h4 class="intro">Introduction</h4>
+                    <div class="intro_para">
+                        <p>
+                            Hey, I am NITIN SAINI. I belongs to Hapur and I am currently pursuing B.Tech in Computer 
+                            Science & Engineering from Sanskar College of Engineering & Technology,Ghaziabad.
+                        </p>
+            
+                        <p>
+                            I am fresher and I am looking for a job in the field of Web Development where I can give my 
+                            100% best to arise the level of company
+                        </p>
+    
+                        <p>Thank You!</p>
+                    </div>
+                </div>
+            </div>
+
+                <h4>Education</h4>
+                <table class="table">
+                    <tr>
+                        <th>Course/Class</th>
+                        <th>University/Board</th>
+                        <th>Marks</th>
+                        <th>Year of Passing</th>
+                    </tr>
+        
+                    <tr class="data">
+                        <td>B.tech(CSE)</td>
+                        <td>AKTU</td>
+                        <td>72%</td>
+                        <td>2024</td>
+                    </tr>
+        
+                    <tr class="data">
+                        <td>12th</td>
+                        <td>UP Board</td>
+                        <td>73.6%</td>
+                        <td>2019</td>
+                    </tr>
+        
+                    <tr class="data">
+                        <td>10th</td>
+                        <td>UP Board</td>
+                        <td>82.6%</td>
+                        <td>2017</td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="services">
+        <div class="section">
+            <div class="title">
+                <center> <h2>Our <span>Services</span></h2></center>
+            </div>
+    
+            <div class="services">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <h3>Planning</h3>
+                    <p>Planning is the process of thinking regarding the activities required to achieve a desired 
+                    goal. Planning is based on foresight, the fundamental capacity for mental time travel.</p>
+                    <a href="https://en.wikipedia.org/wiki/Planning" class="button">Read More</a>
+                </div>
+    
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-crop-simple"></i>    
+                    </div>
+                    <h3>Web Designing</h3>
+                    <p>Web design encompasses many different skills and disciplines in the production and maintenance
+                    of websites. The different areas of web design include web graphic design.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design" class="button">Read More</a>
+                </div>
+    
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Web development is the work involved in developing a website for the intranet. Webdevelopment can range from developing a simple static page of plain text to complex.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_development" class="button">Read More</a>
+                </div>
+                
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-gear"></i>
+                    </div>
+                    <h3>Software Development</h3>
+                    <p>Software development is the process of conceiving, specifying, designing, programming, documenting,
+                    testing, and bug fixing, frameworks, or other software components.</p>
+                    <a href="https://en.wikipedia.org/wiki/Software_development" class="button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="skills">
+        <div class="container_skills">
+            <center><h2 class="myskills">My <span>Skills</span></h2></center>
+            
+            <p class="paragraph">
+                Hii, I have some knowledge in different fields with their programming languages and markup languages
+                with different levels. The number of percentage(%) level of the languages are.... 
+            </p>
+            <div class="skills">
+                
+                <p>HTML</p>
+                <div class="skillitem"><img class="logo" src="html.png.png" alt="html_logo"><div class="skill html">70%</div></div>
+        
+                <p>CSS</p>
+                <div class="skillitem"><img class="logo" src="css.png.png" alt="css_logo"><div class="skill css">60%</div></div>
+        
+                <p>Javascript</p>
+                <div class="skillitem"><img class="logo" src="js.png.png" alt="js_logo"><div class="skill js">30%</div></div>
+        
+                <p>C++</p>
+                <div class="skillitem"><img class="logo" src="cpp.png.png" alt="cpp_logo"><div class="skill cpp">50%</div></div>
+        
+                <p>Python</p>
+                <div class="skillitem"><img class="logo" src="python.png.png" alt="python_logo"><div class="skill py">50%</div></div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>    
+
+    <div id="contact">
+<hr>
+        <center> <h2 class="contact_head">Contact <span>Us</span></h2></center>
+       
+            <form action="" class="form1">
+                <p style="color: aqua;" class="form_head">FILL THIS FORM TO CONTACT</p>
+              <label for="fname"><span>User Name</span></label>
+              <input type="text" id="name" name="name" placeholder="User Name">
+              <label for="lname"><span>User E-mail Address</span></label>
+              <input type="text" id="mail" name="email" placeholder="User Email">
+              <label for="lname"><span>Subject</span></label>
+              <input type="text" id="lname" name="surname" placeholder="Subject">
+              <label for="message"><span>Message</span></label>
+              <textarea id="message" name="message" placeholder="Comments" style="height:200px"></textarea>
+              <input type="submit" value="Send">
+            </form>
+            <div class="location">
+                <a class="location_icon" href="https://goo.gl/maps/zpZZR2K7N7CkSVjN9"><i class="fa-solid fa-location-dot fa-bounce"></i></a>
+                    <h2>Location</h2>
+                    <p>Hapur(Uttar Pradesh),India</p>
+            </div>
+    </div>
+    
+            <div class="social">
+                    <a href="https://www.linkedin.com/in/nitin-saini-64b454237/"><i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="https://github.com/Nitinsaini-7"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/nitin.saini.07/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://t.me/nitin_saini_07"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+    
+</div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var typingEffect=new Typed(".typing",{
+        strings:["Coder !","Developer !","Designer !"],
+        loop:true,
+        typeSpeed:100,
+        backSpeed:100,
+        backDelay:1500
+    })
+   </script>
+    
+
+</body>
+</html>

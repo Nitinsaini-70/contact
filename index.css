@@ -1,0 +1,642 @@
+body{
+    background-color: black;
+    font-family: cursive;
+}
+
+#home{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-position: center;
+    background-size: cover;
+    height: 70vw;
+    width: 100vw;
+    background-image: url(img..jpg);     
+    padding: 1px;  
+}
+
+nav h2{
+    margin:10px;
+}
+
+.portfolio{
+    color: white;
+    margin-left:60px;
+    font-size:30px;
+}
+
+.portfolio span{
+    color: aqua;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 100px;
+    margin:-60px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 40px 1px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aqua;  
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.menu{
+    display: none;
+}
+
+.info{
+    padding-top: 250px;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.info h1{
+    color: white;   
+}
+
+.typing{
+    color: aqua;
+}
+
+.detail{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.more{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding:10px;
+    padding-left:40px;
+    padding-right:40px;
+    margin:50px;
+    border-inline: none;
+    border: none;
+    box-shadow:1px 1px 4px aqua,-1px -1px 4px aqua;;
+    cursor:pointer;
+}
+
+.more:hover{
+    color: black;
+    background-color: aqua;
+}
+
+nav .fas{
+    display: none;
+}
+
+#about{
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_col1{
+    flex-basis: 35%;
+}
+
+.about_col1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about_col2{
+    flex-basis: 60%;
+}
+
+.about_heading{
+    margin:70px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.about_heading span{
+    color: aqua;
+}
+
+.about h4{
+    color: aqua;
+    border-bottom-width: 3px solid ;
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+    width:fit-content
+}
+
+.image{
+    width: 500px;
+   align-items: center;
+}
+
+.intro_para{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.table {
+   
+    color: white;
+}
+
+.table th{
+    color: aqua;
+}
+
+.table td{
+    padding:10px 20px 10px;
+    padding-top:none;
+} 
+
+.data{
+    text-align: center;
+}
+
+#services{
+    margin: 0;
+    padding: 0;
+}
+
+#services{
+    padding: 30px 0px;
+}
+
+.services{
+    color: white;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 20px;
+    padding: 20px 20px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .icon{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card h3{
+    font-size: 14px;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+.card p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.title span{
+    color: aqua;
+}
+
+.button{
+    color: skyblue;
+}
+
+#skill{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container_skills h2{
+    margin: 30px;
+    padding:10px 570px 0px;
+}
+
+.paragraph{
+    color: white;
+    margin:20px;
+    margin-top:50px;
+}
+
+.myskills{
+    padding-bottom:10px;
+    padding-left:550px;
+    color: white;
+}
+
+.myskills span{
+    color: aqua;
+}
+
+.skills{
+    padding-left:400px;
+   
+}
+
+.skills p{
+    color: white;
+    padding-top:15px;
+    margin-bottom:0px;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    border-radius:0px;
+}
+
+.logo{
+    width: 30px;
+}
+
+.skill{   
+    height: 20px;
+    padding-right:0px;
+    padding-top:10px;
+    padding-bottom:6px;
+    text-align: left;
+    border-radius: 1px;
+}
+
+.html{
+    width: 70%;
+    text-align: right;
+    background-color: red;
+    animation: html 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0px;
+    }100%{
+        width: 70%;
+    }
+}
+
+.css{
+    width: 60%;
+    text-align: right;
+    background-color: greenyellow;
+    animation: css 3s;
+}
+
+@keyframes css{
+    0%{
+        width: 0px;
+    }100%{
+        width: 60%;
+    }
+}
+
+.js{
+    width: 30%;
+    text-align: right;
+    background-color: orange;
+    animation: js 3s;
+}
+
+@keyframes js{
+    0%{
+        width: 0px;
+    }100%{
+        width: 30%;
+    }
+}
+
+.cpp{
+    width: 50%;
+    text-align: right;
+    background-color: aqua;
+    animation: cpp 3s;
+}
+
+@keyframes cpp{
+    0%{
+        width: 0px;
+    }100%{
+        width: 50%;
+    }
+}
+
+.py{
+    width: 50%;
+    text-align: right;
+    background-color: gold;
+    animation: py 3s;
+}
+
+@keyframes py{
+    0%{
+        width: 0px;
+    }100%{
+        width: 50%;
+    }
+}
+
+#contact{
+    margin: 0;
+    padding: 0;
+    }
+    .form_head{
+        padding-left:30px;
+        margin-top:0px;
+        padding-bottom:10px;
+        font-size:20px;
+    }
+
+    .contact_head{
+        color: white;
+        text-align: center;
+        padding:40px;
+    }
+
+    .contact_head span{
+        color: aqua;
+    }
+      
+    input[type=text],
+    select,
+    textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color:black;
+    resize: vertical;
+    background-color:white;
+  }
+
+  input[type=submit] {
+    background-color: #02afff;
+    color: white;
+    padding:  12px 168px ;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: white;
+    color: #02afff;
+  }
+
+  .form1 {
+    border-radius: 8px;
+    padding: 30px;
+    margin:450px;
+    box-shadow:0px 0px 20px 10px aqua;
+    margin-top: 0px;
+  }
+
+  .form1 span{
+    color: aqua;
+  }
+ 
+  .location{
+    text-align:center;
+    margin-top:-380px;
+    padding-bottom:100px;
+}
+.location h2{
+    color: white;
+}
+.location p{
+    color: white;
+}
+
+.location .location_icon{
+    margin:5px 610px 20px; 
+    font-size:40px;
+    color: aqua;   
+}
+
+.social{
+    display:flex;
+    align-items: center;
+    padding-left:510px;
+    padding-top:0px
+}
+
+.social a{
+    margin-top:-70px;
+    width: 15px;
+    color:aqua;
+    font-size:30px;
+    padding:30px;
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    #home{
+        background-image: url(nitin.jpg);
+    }
+
+    .portfolio{
+        margin-left:10px;
+    }
+
+    .info{
+        padding-top: 140px;
+        padding-bottom:10px;
+        padding-left: 0px;
+        margin:7px;
+        margin-top:90px;
+    }
+    .info h1{
+        font-size: 30px;
+    }
+    
+    nav ul{
+        margin:0px;
+        right:-200px;
+        background-color: aqua;
+        position: fixed;
+        top: 0;
+        width: 90px;
+        height: 40vh;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 65px;
+        z-index: 2;
+        transition: right 0.8s;
+    }
+
+    .navigation li a{
+        color: black;
+        
+    }
+   
+    nav .fas{
+        display: block;
+        font-size: 25px;
+        margin:-80px;
+        margin-top:5px;
+        color: aqua;
+        position:fixed;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top: 0px;
+        left: 90px;
+        cursor: pointer;
+        color: black;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 20px 5px;
+        height:40px;
+    }
+    
+    
+    .detail{
+        margin:-190px;
+        margin-left:-6px;
+    }
+
+
+    .more{
+        padding:10px;
+        padding-left:40px;
+        padding-right:40px;
+        margin:85px;
+       }
+
+    #about
+    .about{
+        margin-top:230px;
+    }
+    .table{
+        
+        font-size:10px;
+    }
+    .table th{
+        padding: 1px -1px -1px;
+    }
+    
+    #skills
+    .container_skills h2{
+        padding:0px 100px 0px;
+    }  
+
+    .skills{
+        padding-left:70px;
+        width:500px;
+        
+    }
+
+    #contact
+
+    .form_head{
+        padding-left:22px;
+        margin-top:0px;
+        padding-bottom:10px;
+        font-size:20px;
+    }
+
+    input[type=text],
+        select,
+        textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 1px;
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color:black;
+        resize: vertical;
+        background-color:white;
+      }
+    
+        input[type=submit] {
+        background-color: #02afff;
+        color: white;
+        padding:  12px 110px ;
+        border: none;
+        border-radius: 1px;
+        cursor: pointer;
+        }
+        
+        .form1{
+        border-radius: 8px;
+        margin:40px;
+        box-shadow:0px 0px 20px 10px aqua;
+        margin-top: 0px;
+        }
+
+    .location{
+        margin:10px;
+    }
+
+    .location .location_icon{
+        margin: 0px;
+    }
+
+    .social a{
+        padding-left:32px;
+        margin-top:-100px;
+    }
+
+    .social{
+        margin:10px -480px 10px;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 85%;
+        display: flex;
+        margin: 30px 10px;
+    }
+}
